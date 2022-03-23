@@ -4,7 +4,7 @@ public class FirstWhile {
 //    private int StudentGrade;
 //    private int studentLevel;
     public static void main(String[] args) {
-        int studentGrade = 23;
+        int studentGrade = 100;
         if (studentGrade >= 90) {
             System.out.println("A");
         } else if (studentGrade >= 80) {
