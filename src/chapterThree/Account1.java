@@ -1,6 +1,6 @@
 package chapterThree;
 
-public class Account1 {
+public class Account1{
     private String accountName;
     private String accountNumber;
     private int pin;
