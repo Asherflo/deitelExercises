@@ -13,7 +13,7 @@ public class RollDie {
         int frequency6 =0;
         for(int roll =1;roll <=60_000_000;roll++){
             int face = 1 + randomNumbers.nextInt(6);
-            switch (face) {
+             switch (face) {
                 case 1 -> ++frequency1;
                 case 2 -> ++frequency2;
                 case 3 -> ++frequency3;
