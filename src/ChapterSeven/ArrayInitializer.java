@@ -12,4 +12,5 @@ public class ArrayInitializer {
         for (int i =0; i < myList.length;i++)
             myList[i]=input.nextDouble();
     }
+
 }

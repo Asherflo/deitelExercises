@@ -13,6 +13,7 @@ public class ArrayClassExecrise {
             System.out.print( arrayNumbers[i] +",");
         }
         System.out.println(arrayNumbers[499]);
+
     }
 }
 

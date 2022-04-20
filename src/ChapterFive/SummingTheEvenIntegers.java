@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class SummingTheEvenIntegers {
     public static void main(String[] args) {
-//        int total =0;
-//        for(int number=2;number<=20;number +=2){
-//         total =+ number;
-//    }
-//        System.out.println("sum is:" +total);
-//    }
-//}
+        int total =0;
+        for(int number=2;number<=20;number +=2){
+         total =+ number;
+    }
+        System.out.println("sum is:" +total);
+    }
+}
 
 //        for (int number = 2; number <= 20; number += 2) {
 ////            total+=number;
@@ -29,6 +29,3 @@ public class SummingTheEvenIntegers {
 //
 
 
-    }
-
-}

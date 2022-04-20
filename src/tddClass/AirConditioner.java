@@ -4,6 +4,21 @@ public class AirConditioner {
 
     private boolean isOn;
     private int temperature =16;
+
+    public AirConditioner(boolean isOn, int temperature) {
+        this.isOn = isOn;
+        this.temperature = temperature;
+    }
+
+    public AirConditioner() {
+        this(true,17);
+    }
+
+    public AirConditioner(int temperature) {
+        this.temperature = temperature;
+    }
+
+
     
     public void setOn(boolean b) {isOn = b;
     }

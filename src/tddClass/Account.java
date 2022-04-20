@@ -1,16 +1,11 @@
-package tddClass;
+//package tddClass;
+//
+//public class Account {
+//    private final String accountNumber;
+//
+//    public Account(String accountNumber, String firstName, String lastName, int pin, String accountNumber1) {
+//        this.accountNumber = accountNumber1;
+//    }
+//}
 
-public class Account {
-    private int balance;
 
-    public void deposit(int amount) {
-        if(amount < 0){
-            amount = 0;
-        }
-        balance = amount + balance;
-    }
-
-    public int getBalance() {
-        return balance;
-    }
-}

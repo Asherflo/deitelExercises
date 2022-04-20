@@ -1,15 +1,15 @@
 package ChapterSeven;
 
-import java.security.SecureRandom;
 import java. util.Random;
 
-public class ArithmeticArray {
+public class ArraySumAverageMaximu {
     public static void main(String[] args) {
         Random randomNumber = new Random();
         int[] input = new int[10];
         int total = 0;
         int maximumNumber = 0;
         int averageOfTheArray = 0;
+        int minimumNumber = input[0];
 
         for (int counter = 1; counter < input.length; counter++) {
             input[counter] = randomNumber.nextInt(100);
@@ -37,6 +37,16 @@ public class ArithmeticArray {
         }
         System.out.println();
         System.out.println("the average of the array: " + averageOfTheArray);
+
+        for ( int counter = 0; counter < input.length; counter++){
+            if( input[counter] < minimumNumber ){
+                minimumNumber= input[counter];
+
+            }
+        }
+        System.out.println();
+        System.out.println("the minimum number of the array: " + minimumNumber);
     }
+
 }
 

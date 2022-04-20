@@ -1,6 +1,24 @@
 package tddClass;
 
 public class Kata {
+
+    public static int findMaximumFrom(int[] array) {
+        int maximum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] > maximum)maximum = array[i];
+        }
+        return maximum;
+    }
+
+    public static int findMinimumfrom(int[] array) {
+        int minimum = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] < minimum) minimum =array[i];
+        }
+        return  minimum;
+
+    }
+
     public int add(int num1, int num2) {
         return num1 + num2;
     }

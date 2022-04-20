@@ -3,6 +3,8 @@ package tddClass;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class KataTest {
@@ -72,7 +74,16 @@ public class KataTest {
         assertEquals(true,result);
 
 }
-
+@Test
+    public void findMaximumOfArrayTest(){
+        int[] score = {34,23,14,45,23};
+        assertEquals(45,Kata.findMaximumFrom(score));
+}
+@Test
+    public void findMinimumNumberOfArrayTest(){
+    int[] score = {34,23,14,45,23};
+    assertEquals(14,Kata.findMinimumfrom(score));
+}
 
 
 
