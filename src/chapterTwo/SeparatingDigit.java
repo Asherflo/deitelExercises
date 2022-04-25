@@ -9,6 +9,7 @@ public class SeparatingDigit {
         System.out.println("Enter a five digit number:");
         int digitNumber = input.nextInt();
 
+
         int firstNumber = digitNumber / 10000;
         int secondNumber = (digitNumber % 10000) /1000;
         int thirdNumber = (digitNumber % 1000) /100;
@@ -16,8 +17,16 @@ public class SeparatingDigit {
         int fifthNumber = (digitNumber % 10);
 
         System.out.printf("%d %d %d %d %d%n", firstNumber,secondNumber,thirdNumber,fourthNumber,fifthNumber);
-
+        int para =2;
+        int your = 3;
+        int older = 8;
+        int yth =Math.max(para, your);
+        System.out.println("print"+  yth);
 
 
 }
+
 }
+
+
+
