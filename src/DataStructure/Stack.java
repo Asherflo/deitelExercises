@@ -1,4 +1,4 @@
-package dsa;
+package DataStructure;
 
 public class Stack {
 //    private boolean isEmpty =true;

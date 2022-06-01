@@ -22,7 +22,6 @@ public class ArrayGrading {
                     System.out.println("Enter grade for student "+number+ " for subject "+subjectIndex+" : ");
                     grading[i][j] = input.nextInt();
 //                    System.out.println("Score  of student "+number+" for subject "+subjectIndex+" is : "+grading[i][j]);
-
                 }
 
             }

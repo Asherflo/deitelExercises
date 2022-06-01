@@ -14,7 +14,7 @@ public class MaximumSumFinder {
         System.out.println("the maximum number is: " + result);
 
         double anotherResult = sum(number1, number2, number3);
-        System.out.println("the sum total is: " +anotherResult);
+        System.out.println("the sum total is: " + anotherResult);
 
 
     }
@@ -26,16 +26,17 @@ public class MaximumSumFinder {
     }
 
 
-
     public static double maximum(double number1, double number2, double number3) {
-//        double maximumValue =number1;
-//        if(number2 >maximumValue){
-//            maximumValue =number2;
-//        }
-//        if(number3 > maximumValue){
-//            maximumValue = number3;
-//        }
-        return Math.max(number1,Math.max(number2,number3));
+        double maximumValue = number1;
+        if (number2 > maximumValue) {
+            maximumValue = number2;
+        }
+        if (number3 > maximumValue) {
+            maximumValue = number3;
+        }
+        return maximumValue;
+
+
     }
 
 

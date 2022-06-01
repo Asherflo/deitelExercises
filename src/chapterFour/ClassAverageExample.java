@@ -12,7 +12,7 @@ public class ClassAverageExample {
             System.out.println("Enter grade: ");
             int grade = Florence.nextInt();
             totalGrade = totalGrade + grade;
-            gradeCounter =gradeCounter + 1;
+            gradeCounter =gradeCounter +1;
         }
         int average =totalGrade /10;
         System.out.println("total of all 10 grade is:" + totalGrade);
