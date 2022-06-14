@@ -8,4 +8,8 @@ public class Pen {
     public void penDown() {
         isDown = true;
     }
+
+    public boolean isDown() {
+        return isDown;
+    }
 }
